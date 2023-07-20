@@ -36,7 +36,7 @@ class Person
     end
 end
 
-#defino clases
+#defino clases y creo herencia de Person
 class
     Student < Person
 end
