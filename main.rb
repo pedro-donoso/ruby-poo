@@ -8,7 +8,7 @@ class Person
                 @age += 1
     end
 
-    #metodos
+    #defino clases y métodos por separado
     class Student < Person
     def talk
                 puts "Aquí es la clase de programación con Ruby?"
@@ -20,23 +20,25 @@ class Person
                 puts "Aquí es la reunión de apoderados?"
     end
 
-
         class Parent < Person
     def talk
                 puts "Aquí es la reunión de apoderados?"
     end
 
+    class Student < Person
     def introduce
-            if @type == "Student"
             puts "Hola profesor. Mi nombre es #{@first_name} #{@last_name}."
+    end
 
-            elsif @type == "Teacher"
+    class Teacher < Person
+    def introduce
             puts "Hola alumnos. Mi nombre es #{@first_name} #{@last_name}."
+    end
 
-            elsif @type == "Parent"
+    class Parent < Person
+    def introduce
             puts "Hola. Soy uno de los apoderados. Mi nombre es #{@first_name}
             #{@last_name}."
-        end
     end
 end
 
