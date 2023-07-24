@@ -1,3 +1,5 @@
+# https://replit.com/@odikil/poo
+
 ### Clases y Métodos
 
 - El Programa tiene una clase padre llamada Person, la cual tiene los componentes *first name, last name y age* (tambien se define cumpleaños)
