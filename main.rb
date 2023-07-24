@@ -44,14 +44,14 @@ class Parent < Person
     end
     #segundo método de la clase hija apoderado
     def introduce
-        puts "Hola. Soy uno de los apoderados. Mi nombre es #{@first_name}
-        #{@last_name}."
+        puts "Hola. Soy uno de los apoderados. Mi nombre es #{@first_name} #{@last_name}."
     end
 end
 
-# llamo al método talk de la clase hija profesor
-persona = Teacher.new('Juan', 'Perez', 18)
-persona.talk
+# elegir clase hija Student | Teacher | Parent
+persona = Student.new('Juan', 'Perez', 18)
+# elegir método talk | introduce
+persona.introduce
 
 #mostar respuesta al llamado, en terminal
 puts persona
