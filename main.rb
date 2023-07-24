@@ -48,9 +48,9 @@ class Parent < Person
     end
 end
 
-# elegir clase hija Student | Teacher | Parent
+# elegir clase hija Student | Teacher | Parent a mostrar
 persona = Student.new('Juan', 'Perez', 18)
-# elegir método talk | introduce
+# elegir método talk | introduce 
 persona.introduce
 
 #mostar respuesta al llamado, en terminal
