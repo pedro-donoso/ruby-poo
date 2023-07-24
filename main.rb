@@ -1,3 +1,5 @@
+# https://replit.com/@odikil/poo
+
 #Clase padre persona
 class Person
     #componentes de la clase padre
